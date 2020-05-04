@@ -59,7 +59,7 @@ func main() {
 
 			case "usage":
 				supplierName, planName, monthlySpend := getUsageArgs(args)
-				controllers.ProcessEnergyUsedAnnually(defaultCaltulator, plans, supplierName, planName, int(monthlySpend))
+				controllers.ProcessEnergyUsedAnnually(defaultCaltulator, plans, supplierName, planName, monthlySpend)
 
 			case "exit":
 
@@ -84,19 +84,20 @@ func getPriceArgs(args []string) int {
 	return int(usage)
 }
 
-func getUsageArgs(args []string) (string, string, int) {
-	if len(args) != 4 {
-		log.Fatal("Error : usage command requires supplier-name plan-name monthly-spend. (e.g usage xxx yyy 100)")
-	}
+func getUsageArgs(args []string) (string, string, float64) {
+
+	//if len(args) != 4 {
+	//log.Fatal("Error : usage command requires supplier-name plan-name monthly-spend. (e.g usage xxx yyy 100)")
+	//}
 
 	supplierName := args[1]
-	planName := args[2]
-	monthlySpend, err := strconv.ParseInt(args[3], 10, 64)
+	planName := strings.Join(args[2:len(args)-1], " ")
+	monthlySpend, err := strconv.ParseFloat(args[len(args)-1], 64)
 	if err != nil {
 		log.Fatal(err)
 	}
 
-	return supplierName, planName, int(monthlySpend)
+	return supplierName, planName, monthlySpend
 }
 
 func printHelp() {

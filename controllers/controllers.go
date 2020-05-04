@@ -17,7 +17,7 @@ func ProcessPlanForCustomer(calculator calculations.Calculator, plans []data.Ene
 }
 
 // ProcessEnergyUsedAnnually -
-func ProcessEnergyUsedAnnually(calculator calculations.Calculator, plans []data.EnergyPlan, supplierName, planName string, monthlySpend int) {
+func ProcessEnergyUsedAnnually(calculator calculations.Calculator, plans []data.EnergyPlan, supplierName, planName string, monthlySpend float64) {
 	usage, err := calculator.CalculateEnergyUsedAnnually(plans, supplierName, planName, monthlySpend)
 	if err != nil {
 		log.Printf("%v", err)

@@ -1,0 +1,1077 @@
+[
+    {
+        "discounts": [],
+        "plan": "iFix 201509",
+        "rates": [
+            {
+                "price": 11.7619
+            }
+        ],
+        "standing_charge": 20.952399999999997,
+        "supplier": "isupplyenergy"
+    },
+    {
+        "discounts": [
+            {
+                "applies_to": "standing_charge",
+                "cap": null,
+                "value": 44,
+                "value_type": "percentage"
+            }
+        ],
+        "plan": "Thames Online Fixed September 2015",
+        "rates": [
+            {
+                "price": 13.5652952380952,
+                "threshold": 814
+            },
+            {
+                "price": 5.08232380952381
+            }
+        ],
+        "standing_charge": 16.92,
+        "supplier": "flow-energy"
+    },
+    {
+        "discounts": [
+            {
+                "applies_to": "standing_charge",
+                "cap": null,
+                "value": 29,
+                "value_type": "percentage"
+            }
+        ],
+        "plan": "PowerPlus September 2015 v1",
+        "rates": [
+            {
+                "price": 12.431,
+                "threshold": 1182
+            },
+            {
+                "price": 6.157
+            }
+        ],
+        "standing_charge": 22.42,
+        "supplier": "extra-energy"
+    },
+    {
+        "discounts": [
+            {
+                "applies_to": "standing_charge",
+                "cap": null,
+                "value": 40,
+                "value_type": "percentage"
+            }
+        ],
+        "plan": "SaverPlus Fixed Price Sept 2015 v1",
+        "rates": [
+            {
+                "price": 14.03,
+                "threshold": 214
+            },
+            {
+                "price": 4.751
+            }
+        ],
+        "standing_charge": 26.904999999999998,
+        "supplier": "extra-energy"
+    },
+    {
+        "discounts": [
+            {
+                "applies_to": "tier_1_rates",
+                "cap": 2321,
+                "value": 2.75,
+                "value_type": "price"
+            }
+        ],
+        "plan": "E.ON Energy Fixed 1 Year v7",
+        "rates": [
+            {
+                "price": 14.2
+            }
+        ],
+        "standing_charge": 15.639999999999999,
+        "supplier": "e-dot-on"
+    },
+    {
+        "discounts": [
+            {
+                "applies_to": "standing_charge",
+                "cap": null,
+                "value": 35,
+                "value_type": "percentage"
+            }
+        ],
+        "plan": "Cheaper Energy Fixed",
+        "rates": [
+            {
+                "price": 12.13,
+                "threshold": 800
+            },
+            {
+                "price": 7.45
+            }
+        ],
+        "standing_charge": 27.4,
+        "supplier": "ovo"
+    },
+    {
+        "discounts": [],
+        "plan": "Blue+Price Promise February 2016",
+        "rates": [
+            {
+                "price": 14.83,
+                "threshold": 435
+            },
+            {
+                "price": 5.4
+            }
+        ],
+        "standing_charge": 18.0,
+        "supplier": "edf"
+    },
+    {
+        "discounts": [],
+        "plan": "Pocket Fixed 10",
+        "rates": [
+            {
+                "price": 12.29,
+                "threshold": 271
+            },
+            {
+                "price": 7.15
+            }
+        ],
+        "standing_charge": 22.0,
+        "supplier": "loco"
+    },
+    {
+        "discounts": [
+            {
+                "applies_to": "standing_charge",
+                "cap": null,
+                "value": 30,
+                "value_type": "percentage"
+            }
+        ],
+        "plan": "M&S Energy Fix & Save 2",
+        "rates": [
+            {
+                "price": 13.39,
+                "threshold": 475
+            },
+            {
+                "price": 6.37
+            }
+        ],
+        "standing_charge": 21.927390737116763,
+        "supplier": "marksandspencers"
+    },
+    {
+        "discounts": [
+            {
+                "applies_to": "tier_1_rates",
+                "cap": 1955,
+                "value": 3.41,
+                "value_type": "price"
+            }
+        ],
+        "plan": "Better Energy Fixed",
+        "rates": [
+            {
+                "price": 12.13,
+                "threshold": 1100
+            },
+            {
+                "price": 7.45
+            }
+        ],
+        "standing_charge": 27.4,
+        "supplier": "ovo"
+    },
+    {
+        "discounts": [],
+        "plan": "Better Energy",
+        "rates": [
+            {
+                "price": 12.13
+            }
+        ],
+        "standing_charge": 27.4,
+        "supplier": "woodlandtrust"
+    },
+    {
+        "discounts": [
+            {
+                "applies_to": "standing_charge",
+                "cap": null,
+                "value": 13,
+                "value_type": "percentage"
+            }
+        ],
+        "plan": "Online Price Fix October 2015",
+        "rates": [
+            {
+                "price": 11.78,
+                "threshold": 1247
+            },
+            {
+                "price": 6.28
+            }
+        ],
+        "standing_charge": 41.92,
+        "supplier": "npower"
+    },
+    {
+        "discounts": [
+            {
+                "applies_to": "tier_1_rates",
+                "cap": 3820,
+                "value": 2.01,
+                "value_type": "price"
+            }
+        ],
+        "plan": "Rate Saver 12M Fixed 1408",
+        "rates": [
+            {
+                "price": 11.651
+            }
+        ],
+        "standing_charge": 39.21,
+        "supplier": "pioneer"
+    },
+    {
+        "discounts": [
+            {
+                "applies_to": "whole_bill",
+                "cap": null,
+                "value": 7058,
+                "value_type": "price"
+            }
+        ],
+        "plan": "1 Year Fixed Price",
+        "rates": [
+            {
+                "price": 14.8
+            }
+        ],
+        "standing_charge": 14.090000000000002,
+        "supplier": "southern-electric"
+    },
+    {
+        "discounts": [
+            {
+                "applies_to": "tier_1_rates",
+                "cap": 2825,
+                "value": 3.69,
+                "value_type": "price"
+            }
+        ],
+        "plan": "Pocket",
+        "rates": [
+            {
+                "price": 13.32
+            }
+        ],
+        "standing_charge": 22.0,
+        "supplier": "loco"
+    },
+    {
+        "discounts": [
+            {
+                "applies_to": "standing_charge",
+                "cap": null,
+                "value": 40,
+                "value_type": "percentage"
+            }
+        ],
+        "plan": "Standard (Variable)",
+        "rates": [
+            {
+                "price": 16.27,
+                "threshold": 1118
+            },
+            {
+                "price": 5.97
+            }
+        ],
+        "standing_charge": 18.0,
+        "supplier": "edf"
+    },
+    {
+        "discounts": [],
+        "plan": "Help Beat Cancer Fixed Price Energy September 2016 online",
+        "rates": [
+            {
+                "price": 15.116
+            }
+        ],
+        "standing_charge": 26.09,
+        "supplier": "scottishpower"
+    },
+    {
+        "discounts": [],
+        "plan": "Green Electricity",
+        "rates": [
+            {
+                "price": 16.3904761904762,
+                "threshold": 310
+            },
+            {
+                "price": 5.94285714285714
+            }
+        ],
+        "standing_charge": 18.001304631441617,
+        "supplier": "ecotricity"
+    },
+    {
+        "discounts": [
+            {
+                "applies_to": "standing_charge",
+                "cap": null,
+                "value": 44,
+                "value_type": "percentage"
+            }
+        ],
+        "plan": "Cheaper Energy (Fixed to June 2016)",
+        "rates": [
+            {
+                "price": 13.26,
+                "threshold": 200
+            },
+            {
+                "price": 8.42
+            }
+        ],
+        "standing_charge": 27.4,
+        "supplier": "ovo"
+    },
+    {
+        "discounts": [],
+        "plan": "Double Gold",
+        "rates": [
+            {
+                "price": 16.703,
+                "threshold": 854
+            },
+            {
+                "price": 6.3
+            }
+        ],
+        "standing_charge": 13.699,
+        "supplier": "telecom-plus"
+    },
+    {
+        "discounts": [
+            {
+                "applies_to": "whole_bill",
+                "cap": null,
+                "value": 4971,
+                "value_type": "price"
+            }
+        ],
+        "plan": "Price Fix June 2016",
+        "rates": [
+            {
+                "price": 14.66,
+                "threshold": 959
+            },
+            {
+                "price": 6.8
+            }
+        ],
+        "standing_charge": 25.48109589041096,
+        "supplier": "npower"
+    },
+    {
+        "discounts": [],
+        "plan": "Variable Price v1",
+        "rates": [
+            {
+                "price": 11.93,
+                "threshold": 976
+            },
+            {
+                "price": 6.09
+            }
+        ],
+        "standing_charge": 54.8,
+        "supplier": "extra-energy"
+    },
+    {
+        "discounts": [
+            {
+                "applies_to": "tier_1_rates",
+                "cap": 2389,
+                "value": 1.72,
+                "value_type": "price"
+            }
+        ],
+        "plan": "Rate Wise Variable",
+        "rates": [
+            {
+                "price": 12.439,
+                "threshold": 431
+            },
+            {
+                "price": 7.766
+            }
+        ],
+        "standing_charge": 46.169999999999995,
+        "supplier": "pioneer"
+    },
+    {
+        "discounts": [
+            {
+                "applies_to": "tier_1_rates",
+                "cap": 4439,
+                "value": 2.96,
+                "value_type": "price"
+            }
+        ],
+        "plan": "Still",
+        "rates": [
+            {
+                "price": 16.92
+            }
+        ],
+        "standing_charge": 18.0,
+        "supplier": "green-energy-uk"
+    },
+    {
+        "discounts": [
+            {
+                "applies_to": "whole_bill",
+                "cap": null,
+                "value": 4612,
+                "value_type": "price"
+            }
+        ],
+        "plan": "Planet",
+        "rates": [
+            {
+                "price": 14.13,
+                "threshold": 245
+            },
+            {
+                "price": 8.02
+            }
+        ],
+        "standing_charge": 22.0,
+        "supplier": "loco"
+    },
+    {
+        "discounts": [],
+        "plan": "Online Standard",
+        "rates": [
+            {
+                "price": 15.489
+            }
+        ],
+        "standing_charge": 26.09,
+        "supplier": "scottishpower"
+    },
+    {
+        "discounts": [
+            {
+                "applies_to": "whole_bill",
+                "cap": null,
+                "value": 5798,
+                "value_type": "price"
+            }
+        ],
+        "plan": "Standard",
+        "rates": [
+            {
+                "price": 15.39
+            }
+        ],
+        "standing_charge": 24.77,
+        "supplier": "sainsburys"
+    },
+    {
+        "discounts": [],
+        "plan": "Standard",
+        "rates": [
+            {
+                "price": 15.39,
+                "threshold": 684
+            },
+            {
+                "price": 6.77
+            }
+        ],
+        "standing_charge": 24.77,
+        "supplier": "british-gas"
+    },
+    {
+        "discounts": [],
+        "plan": "Fixed Price Mar 17",
+        "rates": [
+            {
+                "price": 15.67,
+                "threshold": 831
+            },
+            {
+                "price": 7.46
+            }
+        ],
+        "standing_charge": 15.662948467058055,
+        "supplier": "southern-electric"
+    },
+    {
+        "discounts": [
+            {
+                "applies_to": "standing_charge",
+                "cap": null,
+                "value": 17,
+                "value_type": "percentage"
+            }
+        ],
+        "plan": "Standard",
+        "rates": [
+            {
+                "price": 15.67,
+                "threshold": 849
+            },
+            {
+                "price": 7.46
+            }
+        ],
+        "standing_charge": 15.662948467058055,
+        "supplier": "southern-electric"
+    },
+    {
+        "discounts": [],
+        "plan": "M&S Energy Standard Energy",
+        "rates": [
+            {
+                "price": 15.67
+            }
+        ],
+        "standing_charge": 15.662948467058055,
+        "supplier": "marksandspencers"
+    },
+    {
+        "discounts": [
+            {
+                "applies_to": "whole_bill",
+                "cap": null,
+                "value": 2056,
+                "value_type": "price"
+            }
+        ],
+        "plan": "Gold",
+        "rates": [
+            {
+                "price": 17.392
+            }
+        ],
+        "standing_charge": 13.699,
+        "supplier": "telecom-plus"
+    },
+    {
+        "discounts": [],
+        "plan": "Pioneer - DD",
+        "rates": [
+            {
+                "price": 15.16
+            }
+        ],
+        "standing_charge": 19.046575342465754,
+        "supplier": "the-co-operative"
+    },
+    {
+        "discounts": [
+            {
+                "applies_to": "tier_1_rates",
+                "cap": 2733,
+                "value": 2.45,
+                "value_type": "price"
+            }
+        ],
+        "plan": "Greener Energy Fixed (Online)",
+        "rates": [
+            {
+                "price": 13.96,
+                "threshold": 927
+            },
+            {
+                "price": 8.57
+            }
+        ],
+        "standing_charge": 27.4,
+        "supplier": "ovo"
+    },
+    {
+        "discounts": [
+            {
+                "applies_to": "whole_bill",
+                "cap": null,
+                "value": 1792,
+                "value_type": "price"
+            }
+        ],
+        "plan": "Better Energy (Fixed to June 2016)",
+        "rates": [
+            {
+                "price": 13.26,
+                "threshold": 1245
+            },
+            {
+                "price": 8.42
+            }
+        ],
+        "standing_charge": 27.4,
+        "supplier": "ovo"
+    },
+    {
+        "discounts": [
+            {
+                "applies_to": "standing_charge",
+                "cap": null,
+                "value": 39,
+                "value_type": "percentage"
+            }
+        ],
+        "plan": "Age UK Fixed 2 Year v2",
+        "rates": [
+            {
+                "price": 16.6,
+                "threshold": 329
+            },
+            {
+                "price": 6.9
+            }
+        ],
+        "standing_charge": 15.639999999999999,
+        "supplier": "e-dot-on"
+    },
+    {
+        "discounts": [
+            {
+                "applies_to": "standing_charge",
+                "cap": null,
+                "value": 14,
+                "value_type": "percentage"
+            }
+        ],
+        "plan": "E.ON Energy Plan",
+        "rates": [
+            {
+                "price": 16.6,
+                "threshold": 1388
+            },
+            {
+                "price": 6.9
+            }
+        ],
+        "standing_charge": 15.639999999999999,
+        "supplier": "e-dot-on"
+    },
+    {
+        "discounts": [
+            {
+                "applies_to": "tier_1_rates",
+                "cap": 2939,
+                "value": 3.99,
+                "value_type": "price"
+            }
+        ],
+        "plan": "iSave Fixed September 2015 (v27) Electricity only",
+        "rates": [
+            {
+                "price": 13.404,
+                "threshold": 1124
+            },
+            {
+                "price": 9.648
+            }
+        ],
+        "standing_charge": 15.4,
+        "supplier": "first-utility"
+    },
+    {
+        "discounts": [
+            {
+                "applies_to": "whole_bill",
+                "cap": null,
+                "value": 3121,
+                "value_type": "price"
+            }
+        ],
+        "plan": "Rate Saver 24M Fixed 1408",
+        "rates": [
+            {
+                "price": 13.043
+            }
+        ],
+        "standing_charge": 34.0,
+        "supplier": "pioneer"
+    },
+    {
+        "discounts": [
+            {
+                "applies_to": "standing_charge",
+                "cap": null,
+                "value": 31,
+                "value_type": "percentage"
+            }
+        ],
+        "plan": "Fixed - May 2016",
+        "rates": [
+            {
+                "price": 15.58,
+                "threshold": 1231
+            },
+            {
+                "price": 7.63
+            }
+        ],
+        "standing_charge": 19.046575342465754,
+        "supplier": "the-co-operative"
+    },
+    {
+        "discounts": [],
+        "plan": "Value",
+        "rates": [
+            {
+                "price": 17.943,
+                "threshold": 319
+            },
+            {
+                "price": 6.3
+            }
+        ],
+        "standing_charge": 13.699,
+        "supplier": "telecom-plus"
+    },
+    {
+        "discounts": [],
+        "plan": "Online Fixed Price Energy September 2015",
+        "rates": [
+            {
+                "price": 15.489,
+                "threshold": 849
+            },
+            {
+                "price": 6.659
+            }
+        ],
+        "standing_charge": 31.97,
+        "supplier": "scottishpower"
+    },
+    {
+        "discounts": [],
+        "plan": "Good Energy (Electricity Only)",
+        "rates": [
+            {
+                "price": 15.42,
+                "threshold": 1030
+            },
+            {
+                "price": 8.23
+            }
+        ],
+        "standing_charge": 16.02,
+        "supplier": "good-energy"
+    },
+    {
+        "discounts": [
+            {
+                "applies_to": "tier_1_rates",
+                "cap": 4167,
+                "value": 1.54,
+                "value_type": "price"
+            }
+        ],
+        "plan": "Sparkling",
+        "rates": [
+            {
+                "price": 17.42,
+                "threshold": 1169
+            },
+            {
+                "price": 6.42
+            }
+        ],
+        "standing_charge": 18.0,
+        "supplier": "green-energy-uk"
+    },
+    {
+        "discounts": [],
+        "plan": "E.ON Energy Fixed 2 Year v5",
+        "rates": [
+            {
+                "price": 16.97,
+                "threshold": 209
+            },
+            {
+                "price": 7.05
+            }
+        ],
+        "standing_charge": 15.639999999999999,
+        "supplier": "e-dot-on"
+    },
+    {
+        "discounts": [
+            {
+                "applies_to": "tier_1_rates",
+                "cap": 2179,
+                "value": 3.83,
+                "value_type": "price"
+            }
+        ],
+        "plan": "Standard",
+        "rates": [
+            {
+                "price": 18.62
+            }
+        ],
+        "standing_charge": 12.33109589041096,
+        "supplier": "npower"
+    },
+    {
+        "discounts": [
+            {
+                "applies_to": "standing_charge",
+                "cap": null,
+                "value": 35,
+                "value_type": "percentage"
+            }
+        ],
+        "plan": "Greener Energy Fixed",
+        "rates": [
+            {
+                "price": 13.96,
+                "threshold": 744
+            },
+            {
+                "price": 8.57
+            }
+        ],
+        "standing_charge": 27.4,
+        "supplier": "ovo"
+    },
+    {
+        "discounts": [
+            {
+                "applies_to": "standing_charge",
+                "cap": null,
+                "value": 35,
+                "value_type": "percentage"
+            }
+        ],
+        "plan": "Greener Energy",
+        "rates": [
+            {
+                "price": 13.96,
+                "threshold": 244
+            },
+            {
+                "price": 8.57
+            }
+        ],
+        "standing_charge": 27.4,
+        "supplier": "woodlandtrust"
+    },
+    {
+        "discounts": [],
+        "plan": "Double Gold Fixed Price 1",
+        "rates": [
+            {
+                "price": 16.478,
+                "threshold": 565
+            },
+            {
+                "price": 6.762
+            }
+        ],
+        "standing_charge": 26.092,
+        "supplier": "telecom-plus"
+    },
+    {
+        "discounts": [],
+        "plan": "Pocket Fixed March 2017",
+        "rates": [
+            {
+                "price": 16.15,
+                "threshold": 955
+            },
+            {
+                "price": 7.74
+            }
+        ],
+        "standing_charge": 20.0,
+        "supplier": "loco"
+    },
+    {
+        "discounts": [
+            {
+                "applies_to": "standing_charge",
+                "cap": null,
+                "value": 21,
+                "value_type": "percentage"
+            }
+        ],
+        "plan": "Fixed - March 2017",
+        "rates": [
+            {
+                "price": 16.3634630659253,
+                "threshold": 1182
+            },
+            {
+                "price": 8.01588562351072
+            }
+        ],
+        "standing_charge": 19.046575342465754,
+        "supplier": "the-co-operative"
+    },
+    {
+        "discounts": [
+            {
+                "applies_to": "tier_1_rates",
+                "cap": 5435,
+                "value": 3.35,
+                "value_type": "price"
+            }
+        ],
+        "plan": "Blue+Price Freeeeze July 2017",
+        "rates": [
+            {
+                "price": 18.28,
+                "threshold": 943
+            },
+            {
+                "price": 6.65
+            }
+        ],
+        "standing_charge": 18.0,
+        "supplier": "edf"
+    },
+    {
+        "discounts": [
+            {
+                "applies_to": "whole_bill",
+                "cap": null,
+                "value": 9058,
+                "value_type": "price"
+            }
+        ],
+        "plan": "Fixed Price January 2017",
+        "rates": [
+            {
+                "price": 16.28,
+                "threshold": 371
+            },
+            {
+                "price": 7.66
+            }
+        ],
+        "standing_charge": 24.77,
+        "supplier": "british-gas"
+    },
+    {
+        "discounts": [],
+        "plan": "Rate Saver 36M Fixed 1408",
+        "rates": [
+            {
+                "price": 13.857,
+                "threshold": 989
+            },
+            {
+                "price": 8.865
+            }
+        ],
+        "standing_charge": 34.09,
+        "supplier": "pioneer"
+    },
+    {
+        "discounts": [
+            {
+                "applies_to": "standing_charge",
+                "cap": null,
+                "value": 41,
+                "value_type": "percentage"
+            }
+        ],
+        "plan": "EquiPower",
+        "rates": [
+            {
+                "price": 22.43,
+                "threshold": 1037
+            },
+            {
+                "price": 7.46
+            }
+        ],
+        "standing_charge": 0.0,
+        "supplier": "ebico"
+    },
+    {
+        "discounts": [
+            {
+                "applies_to": "tier_1_rates",
+                "cap": 3168,
+                "value": 3.71,
+                "value_type": "price"
+            }
+        ],
+        "plan": "iSave Fixed October 2016 (v28) Electricity only",
+        "rates": [
+            {
+                "price": 15.638
+            }
+        ],
+        "standing_charge": 18.0,
+        "supplier": "first-utility"
+    },
+    {
+        "discounts": [],
+        "plan": "Direct Debit Saver",
+        "rates": [
+            {
+                "price": 20.551
+            }
+        ],
+        "standing_charge": 14.0,
+        "supplier": "spark-energy"
+    },
+    {
+        "discounts": [
+            {
+                "applies_to": "whole_bill",
+                "cap": null,
+                "value": 1949,
+                "value_type": "price"
+            }
+        ],
+        "plan": "iSave Fixed September 2017 (v22) (Electricity only)",
+        "rates": [
+            {
+                "price": 16.019
+            }
+        ],
+        "standing_charge": 18.110000000000003,
+        "supplier": "first-utility"
+    },
+    {
+        "discounts": [
+            {
+                "applies_to": "standing_charge",
+                "cap": null,
+                "value": 41,
+                "value_type": "percentage"
+            }
+        ],
+        "plan": "iSave Everyday v2 Electricity Only",
+        "rates": [
+            {
+                "price": 18.851
+            }
+        ],
+        "standing_charge": 1.54,
+        "supplier": "first-utility"
+    }
+]

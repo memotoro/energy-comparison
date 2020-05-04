@@ -9,7 +9,7 @@ import (
 // Calculator -
 type Calculator interface {
 	CalculatePlansForCustomer(plans []data.EnergyPlan, yearlyUsage int) []data.CustomerPlan
-	CalculateEnergyUsedAnnually(plans []data.EnergyPlan, supplierName, planName string, monthlySpend int) (*float64, error)
+	CalculateEnergyUsedAnnually(plans []data.EnergyPlan, supplierName, planName string, monthlySpend float64) (*float64, error)
 }
 
 type calculator struct {
@@ -36,6 +36,9 @@ func (c *calculator) CalculatePlansForCustomer(plans []data.EnergyPlan, yearlyUs
 					cumulative += float64(*rate.Threshold) * rate.Price
 					// Calculates the remaining usage for next rate
 					customerUsage -= *rate.Threshold
+				} else {
+					cumulative += float64(customerUsage) * rate.Price
+					customerUsage = 0
 				}
 			} else {
 				value := float64(customerUsage) * rate.Price
@@ -47,8 +50,12 @@ func (c *calculator) CalculatePlansForCustomer(plans []data.EnergyPlan, yearlyUs
 			// Adds the standing charge for one year
 			cumulative += float64(*plan.StandingCharge * 365)
 		}
+
+		// Apply discounts
+		total := applyDiscount(cumulative, plan)
+
 		// Adds taxes
-		total := addTax(cumulative, c.taxRate)
+		total = addTax(total, c.taxRate)
 		customerPlans = append(customerPlans, data.CustomerPlan{EnergyPlan: plan, Total: total})
 	}
 
@@ -56,7 +63,7 @@ func (c *calculator) CalculatePlansForCustomer(plans []data.EnergyPlan, yearlyUs
 }
 
 // CalculateEnergyUsedAnnually -
-func (c *calculator) CalculateEnergyUsedAnnually(plans []data.EnergyPlan, supplierName, planName string, monthlySpend int) (*float64, error) {
+func (c *calculator) CalculateEnergyUsedAnnually(plans []data.EnergyPlan, supplierName, planName string, monthlySpend float64) (*float64, error) {
 	var selectedPlan *data.EnergyPlan
 
 	for _, plan := range plans {
@@ -79,6 +86,8 @@ func (c *calculator) CalculateEnergyUsedAnnually(plans []data.EnergyPlan, suppli
 	yearlySpend := float64(monthlySpend * 100 * 12)
 	total := removeTax(yearlySpend, c.taxRate)
 
+	total = applyDiscount(total, *selectedPlan)
+
 	if selectedPlan.StandingCharge != nil {
 		// Removes the standing charge for the year
 		total -= float64(*selectedPlan.StandingCharge * 365)
@@ -95,6 +104,10 @@ func (c *calculator) CalculateEnergyUsedAnnually(plans []data.EnergyPlan, suppli
 				total -= charge
 				// Adds the energy used
 				usage += float64(*rate.Threshold)
+			} else {
+				// Adds the energy used
+				usage += float64(*rate.Threshold)
+				total = 0
 			}
 		} else {
 			// Gets the remaining spend value divided by price and adds the usage so far
@@ -111,4 +124,17 @@ func addTax(value, taxRate float64) float64 {
 
 func removeTax(value, taxRate float64) float64 {
 	return value / float64(1+taxRate/100)
+}
+
+func applyDiscount(total float64, plan data.EnergyPlan) float64 {
+	newTotal := total
+
+	for _, discount := range plan.Discount {
+		switch discount.AppliesTo {
+		case "whole_bill":
+			newTotal = total - discount.Value
+		}
+	}
+
+	return newTotal
 }
