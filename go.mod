@@ -1,4 +1,4 @@
-module uswitch.com/comparison
+module uswitch.com/energy-comparison
 
 go 1.13
 

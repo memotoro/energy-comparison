@@ -3,7 +3,7 @@ package calculations
 import (
 	"fmt"
 
-	"uswitch.com/comparison/data"
+	"uswitch.com/energy-comparison/data"
 )
 
 // Calculator -

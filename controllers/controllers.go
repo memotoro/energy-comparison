@@ -6,8 +6,8 @@ import (
 	"os"
 	"sort"
 
-	"uswitch.com/comparison/calculations"
-	"uswitch.com/comparison/data"
+	"uswitch.com/energy-comparison/calculations"
+	"uswitch.com/energy-comparison/data"
 )
 
 // ProcessPlanForCustomer -

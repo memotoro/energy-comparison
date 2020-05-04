@@ -10,9 +10,9 @@ import (
 	"strings"
 
 	"github.com/alecthomas/kingpin"
-	"uswitch.com/comparison/calculations"
-	"uswitch.com/comparison/controllers"
-	"uswitch.com/comparison/data"
+	"uswitch.com/energy-comparison/calculations"
+	"uswitch.com/energy-comparison/controllers"
+	"uswitch.com/energy-comparison/data"
 )
 
 var (

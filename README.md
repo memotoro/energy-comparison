@@ -5,13 +5,13 @@
 The executable for the program is in the folder
 
 ```
-./bin/comparison
+./bin/energy-comparison
 ```
 
 In order to execute the program, please load the `plans.json` file first with the following command
 
 ```
-./bin/comparison ./files/plans.json
+./bin/energy-comparison ./files/plans.json
 ```
 
 ## Commands
@@ -61,16 +61,16 @@ cd $GOPATH/src
 tar -xvf uswitch.com.tar
 ```
 
-Once the file is expanded, go inside the folder `uswitch.com/comparison`. This is the folder with the source code
+Once the file is expanded, go inside the folder `uswitch.com/energy-comparison`. This is the folder with the source code
 
 ```
-cd uswitch.com/comparison
+cd uswitch.com/energy-comparison
 ```
 
 Once in the root directory, execute the following command
 
 ```
-go build -o ./bin/comparison
+go build -o ./bin/energy-comparison
 ```
 
 The previous command will compile the source code and put the binary file in the specified folder `./bin`. You could use the binary file with the instructions given above.
